@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import Calculator from './components/Calculator';
+import Logo from './assets/reactLogo.png';
 import * as serviceWorker from './serviceWorker';
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Calculator</h1>
+    <img src={Logo} alt="Developer" />
     <Calculator />
   </React.StrictMode>,
   document.getElementById('root')

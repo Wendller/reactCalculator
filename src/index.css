@@ -8,10 +8,18 @@
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
 
   color: white;
-  background: linear-gradient(to right, rgb(83, 105 ,118), rgb(41, 46, 73));
+  /* background: linear-gradient(to right, #232526, #414345); */
+  background-color: #23272A;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 32px;
 }
