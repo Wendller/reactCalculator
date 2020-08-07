@@ -1,0 +1,48 @@
+.action {
+  background-color: #282c34;
+  color: #61DBFB;
+  border: none;
+  font-size: 1.2rem;
+  outline: none;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.action:active {
+  background-color: #3a3a3a;
+}
+
+.send {
+  background-color: lightgreen;
+  color: #282c34;
+}
+
+.send:active {
+  background-color: rgb(9, 201, 9);
+}
+
+.back {
+  background-color: salmon;
+  color: #282c34;
+}
+
+.back:active {
+  background-color: rgb(218, 30, 30);
+}
+
+.triple {
+  grid-column: span 3;
+  background-color: #61DBFB;
+  color: #282c34;
+}
+
+.triple:active {
+  background-color: cyan;
+}

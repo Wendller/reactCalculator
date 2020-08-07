@@ -1,0 +1,9 @@
+.conversor {
+  width: 320px;
+  height: 180px;
+  background-color: black;
+  border: 3px solid gray ;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 2fr 1fr 1fr;
+}

@@ -1,19 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Calculator from './components/Calculator';
+// import Calculator from './components/Calculator';
+import Conversor from './example/Conversor';
 import Logo from './assets/reactLogo.png';
-import * as serviceWorker from './serviceWorker';
 import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <img src={Logo} alt="Developer" />
-    <Calculator />
+    <img src={Logo} alt="React" />
+    <h3 style={{color: '#50fa7b', margin: '32px'}}>b1nary c0de trans1at0r</h3>
+    <Conversor />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
