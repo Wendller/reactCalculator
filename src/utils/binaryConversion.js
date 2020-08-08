@@ -13,9 +13,9 @@ function binaryAgent(str) {
     return binaries.join("");
   }
   
-  function binaryToSring(bayte) {
+  function binaryToSring(byte) {
   
-    const string = Array.from(bayte);
+    const string = Array.from(byte);
   
     let decimal = string.reduce((total, next, index) => {
       switch (index) {
